@@ -1,0 +1,26 @@
+@import "reset.css";
+
+table{
+    border-collapse: collapse;
+}
+
+td {
+    width: 25px;
+    height: 25px;
+    border: 1px solid grey;
+}
+
+td.invert {
+    background-color: #000000;
+}
+
+table.invert td {
+    background-color: #000000;
+}
+table td {
+    background-color: white;
+}
+
+table.invert td.invert{
+    background-color: white;
+}
